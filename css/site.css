@@ -260,6 +260,13 @@ main {
   font-size: 0.9rem;
 }
 
+.btn[hidden],
+.note[hidden],
+.empty[hidden],
+[hidden] {
+  display: none !important;
+}
+
 .btn:hover {
   background: var(--accent);
   color: #fff;
